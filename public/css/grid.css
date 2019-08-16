@@ -1,0 +1,27 @@
+.BigContainer {
+    max-width: 678px;
+    width: 100%;
+    margin: auto;
+}
+
+.SmallContainer {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+div[class^="col"] {
+    padding: 0.5rem !important;
+}
+
+/* Display flex (column), center center */
+.flex-col-c-c {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}

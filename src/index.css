@@ -1,0 +1,30 @@
+* {
+  position: relative;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px 0 0 0;
+  font-family: 'Quicksand', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  background-color: #935ec9;
+}
+
+
+@media (max-width: 425px) {
+  body {
+      font-size: 12px;
+  }
+}
+
+@media (max-width: 678px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",monospace;
+}

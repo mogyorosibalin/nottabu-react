@@ -1,0 +1,14 @@
+.ListItem {
+    padding: 1rem;
+    margin: 0;
+    border-bottom: 3px dashed #575757;
+    color: #575757;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.08rem;
+}
+
+.ListItem:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,20 @@
+.Toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #663399;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .8);
+    z-index: 1000;
+}
+
+.Logo {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
